@@ -24,7 +24,7 @@ if os.path.exists('README.rst'):
 
 setup(
     name='WebElemental',
-    version='1.4.4',
+    version='1.4.5',
     url='http://github.com/IntuitiveWebSolutions/WebElemental',
     license='MIT',
     author='Scott Blevins',
