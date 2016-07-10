@@ -52,7 +52,7 @@ class HttpBase(unittest.TestCase):
         cls.server = Server()
         cls.server.start()
 
-        cls.wt = TestElemental(base_url='http://127.0.0.1:8000/')
+        cls.elemental = TestElemental(base_url='http://127.0.0.1:8000/')
         cls.elemental.start()
 
     @classmethod
